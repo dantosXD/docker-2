@@ -13,6 +13,7 @@ COPY ./scripts/backend.sh ./server
 COPY ./scripts/frontend.sh ./frontend
 
 # Install packages
+RUN yarn upgrade
 RUN yarn install
 
 # Environment variables
