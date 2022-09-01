@@ -1,4 +1,4 @@
-FROM node:12.18.3-buster
+FROM node:16-buster
 
 ARG logchimp_app_version
 
