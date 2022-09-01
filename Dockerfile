@@ -17,6 +17,6 @@ RUN yarn install
 
 # Environment variables
 ENV SERVER_PORT=3000
-ENV VUE_APP_SEVER_URL="http://localhost:${SERVER_PORT}"
+ENV VUE_APP_SEVER_URL="http://http://logchimp.portlandregion.com:${SERVER_PORT}"
 
 CMD ["sh", "./run.sh"]
